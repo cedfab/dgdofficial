@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+html {
+    font-family: 'Montserrat';
+    background: linear-gradient(0deg,
+  rgb(162, 0, 255) 0%, rgb(0, 63, 180) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.center {
+    text-align: center;
+    font-size: 2em;
+}
+
+.small {
+    height: 5em;
+    transition: 0.5s;
+}
+
+.small:hover {
+    height: 5.2em;
+}
+
+.upper {
+    background-color: blue;
+}
+
+a {
+    text-decoration: none;
+    color: aqua;
+    transition: 0.5s;
+    font-family: 'Nunito';
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(0, 140, 255);
+    transition: 0.5s;
+}
+
+button {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+    border: 0em;
+    border-radius: 0.3em;
+    background-color: aqua;
+    font-size: 1em;
+    font-family: 'Nunito';
+}
+
+button:hover {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+    border: 0em;
+    border-radius: 0.3em;
+    box-shadow: 0 0 20px aqua;
+    font-size: 1em;
+}
+
+.demlistbig {
+    font-size: 2em;
+    margin-left: 1em;
+}
+
+.demlistbig2 {
+    font-size: 1.1em;
+    width: 1em;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+    border: 0em;
+    border-radius: 2em;
+    background-color: #fff;
+}
+
+.demlistbig2:hover {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+    border: 0em;
+    border-radius: 2em;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px #ffffff;
+}
+
+i {
+    color: #aaa;
+    font-family: 'Nunito';
+}
